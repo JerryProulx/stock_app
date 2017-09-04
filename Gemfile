@@ -48,8 +48,10 @@ group :development do
 end
 
 group :production do
-  #to deploy on heroku
+
   gem 'pg'
+  
   gem 'rails_12factor'
+
 end
 
